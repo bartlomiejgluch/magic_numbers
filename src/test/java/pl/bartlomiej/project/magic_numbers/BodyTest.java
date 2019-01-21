@@ -19,6 +19,9 @@ public class BodyTest {
         Assert.assertEquals("Extension is not correct", Body.checkFileType("resources/testNotJpgIsGif.jpg"));
         Assert.assertEquals("Extension is not correct", Body.checkFileType("resources/testNotJpgIsTxt.jpg"));
         Assert.assertEquals("Extension is not correct", Body.checkFileType("resources/testNotTxtIsJpg.txt"));
+
+        Assert.assertEquals("Extension is correct", Body.checkFileType("resources/testIsPdf.pdf"));
+
         }
 
     }

@@ -12,7 +12,7 @@ public class App {
     public static void main(String[] args) throws IOException, ExtensionNotSupportedException {
 
 
-        String filePath = "resources/testNotJpgIsTxt.jpg";
+        String filePath = "resources/testIsPdf.pdf";
 
         Body.checkFileType(filePath);
 

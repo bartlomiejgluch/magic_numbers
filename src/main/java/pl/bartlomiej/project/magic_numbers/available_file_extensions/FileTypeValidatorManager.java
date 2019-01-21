@@ -13,7 +13,7 @@ public class FileTypeValidatorManager {
         validators = new ArrayList<>();
         validators.add(new JpegFileValidator());
         validators.add(new GifFileValidator());
-
+        validators.add(new PdfFileValidator());
 
         validators.add(new TxtFileTypeValidator());
 
